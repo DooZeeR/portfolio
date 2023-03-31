@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import './Contact.model.css';
 import { useLanguage } from '../../store/LanguageContext';
+
 const Contact = () => {
     const language = useLanguage();
   return (
-    <div>
+    <section className='Contact' id='Contact'>
         <h1>{language ? 'Contact' : 'Kapcsolat'}</h1>
-    </div>
+    </section>
   )
 }
 

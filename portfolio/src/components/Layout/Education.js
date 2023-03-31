@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './Education.model.css';
 import { useLanguage } from '../../store/LanguageContext';
 const Education = () => {
     const language = useLanguage();
   return (
-    <div>
+    <section className='Education' id='Education'>
         <h1>{language ? 'Education' : 'Oktatás'}</h1>
-    </div>
+    </section>
   )
 }
 

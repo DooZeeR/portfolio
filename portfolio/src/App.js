@@ -8,6 +8,8 @@ import Contact from './components/Layout/Contact';
 import { LanguageProvider } from './store/LanguageContext';
 
 export default function App() {
+
+
   return (
     <LanguageProvider>
       <div className='App'>

@@ -3,7 +3,8 @@ import './Contact.model.css';
 import { useLanguage } from '../../store/LanguageContext';
 
 const Contact = () => {
-    const language = useLanguage();
+  const language = useLanguage();
+
   return (
     <section className='Contact' id='Contact'>
         <h1>{language ? 'Contact' : 'Kapcsolat'}</h1>

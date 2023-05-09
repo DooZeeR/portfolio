@@ -1,7 +1,5 @@
 .App {
-  -ms-scroll-snap-type: y mandatory;
-      scroll-snap-type: y mandatory;
-  overflow-y: scroll;
+  overflow-y: hidden;
   text-align: center;
   height: 100vh;
 }

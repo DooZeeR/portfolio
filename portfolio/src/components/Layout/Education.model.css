@@ -1,3 +1,4 @@
 .Education{
-    background-color: #8e9298;
+    background-color: var(--section-1-background);
+    color:white;
 }

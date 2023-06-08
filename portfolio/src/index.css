@@ -22,11 +22,25 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --nav-background:rgb(0, 0, 0);
+  --nav-background:#1B1B1B;
   --nav-link-color: rgb(255, 255, 255);
-  --nav-button-background: rgb(23, 93, 184);
-  --nav-button-hover-background: rgb(17, 56, 108);
-  --nav-button-color: rgb(255, 255, 255);
+  --nav-button-background: #E1765A;
+  --nav-button-hover-background: #b6553c;
+  --nav-button-color: #2C2C2C;
+  --section-1-background:#1B1B1B;
+  --clr-1: #2deaff;
+  --clr-2: #25b6c9;
+  --clr-3: #0c5057;
+  /* --c1: rgb(255, 62, 3); */
+  --c1: rgb(57, 178, 205);
+  /* --c1: rgba(168, 239, 255, 1); */
+	--c2: rgba(168, 239, 255, 0.1);
+
+  /*   
+#E1765A
+#1B1B1B
+#2C2C2C
+#696969 */
 }
 
 

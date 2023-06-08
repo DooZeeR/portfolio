@@ -1,3 +1,4 @@
 .Skills{
-    background-color: #87a8b7;
+    background-color: var(--section-1-background);
+    color:white;
 }
